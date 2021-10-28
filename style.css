@@ -1,0 +1,87 @@
+h1, h2, a
+{
+    display: block;
+    text-align: center;
+}
+h1
+{
+    color: red;
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-template-rows: repeat(4, 1fr);
+}
+.one
+{
+    grid-column: 1;
+    grid-row: 1;
+}
+.two
+{
+    grid-column: 2;
+    grid-row: 1;
+}
+.three
+{
+    grid-column: 3;
+    grid-row: 1;
+}
+.four
+{
+    grid-column: 1;
+    grid-row: 2;
+}
+.five
+{
+    grid-column: 2;
+    grid-row: 2;
+}
+.six
+{
+    grid-column: 3;
+    grid-row: 2;
+}
+.seven
+{
+    grid-column: 1;
+    grid-row: 3;
+}
+.height
+{
+    grid-column: 2;
+    grid-row: 3;
+}
+.nine
+{
+    grid-column: 3;
+    grid-row: 3;
+}
+.ten
+{
+    grid-column: 1;
+    grid-row: 4;
+}
+.eleven
+{
+    grid-column: 2;
+    grid-row: 4;
+}
+.twelve
+{
+    grid-column: 3;
+    grid-row: 4;
+}
+a /*liens par defaut (non survolés)*/
+{
+    text-decoration: underline;
+    color: blue;
+    font-style: italic;
+}
+a:hover /*apparence au survol*/
+{
+    text-decoration: underline;
+    color: green;
+}
